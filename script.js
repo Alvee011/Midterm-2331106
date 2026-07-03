@@ -2,6 +2,10 @@ function showWelcome() {
     alert("Welcome to Alvee's Game Shop! Browse our products and enjoy gaming!");
 }
 
+function addToCart(productName) {
+    alert(productName + " has been added to your cart!");
+}
+
 function sendMessage() {
     var name = document.getElementById("nameBox").value;
     var email = document.getElementById("emailBox").value;
