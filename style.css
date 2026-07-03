@@ -68,6 +68,12 @@ img {
     border-radius: 10px;
 }
 
+.price {
+    color: green;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
 .btn {
     background: blue;
     color: white;
@@ -92,6 +98,25 @@ img {
 
 .btn-green:hover {
     background: darkgreen;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
 }
 
 footer {
